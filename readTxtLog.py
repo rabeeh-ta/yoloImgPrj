@@ -1,9 +1,11 @@
 import time
+from sendTextMessage import sendSmsNotification
 
 def read_other_terminal_output(file_path):
     try:
         with open(file_path, 'r') as file:
             frame_time = 0
+            messageSent = False
             while True:
                 line = file.readline()
                 if not line:
@@ -20,6 +22,11 @@ def read_other_terminal_output(file_path):
                             frame_time+= int(split_line[4].split('.')[0])
                         if(frame_time > 2500):
                             print("animal detected:", split_line[3])
+                            if messageSent == False:
+                                messageSent = True
+                                sendSmsNotification("Animal detected: "+split_line[3])
+                                print("message sent")
+
                     else:
                         frame_time = 0
                         print("no animal found")

@@ -10,10 +10,10 @@ to_phone = os.getenv('TO_PHONE')
 from_phone = os.getenv('FROM_PHONE')
 
 # function for sending txt message
-def sendSmsNotification():
+def sendSmsNotification(message):
     client = Client(account_sid, auth_token)
     message = client.messages.create(
-        body='yoooooo sorry bro wrong message, everything in your field is fine',
+        body=message,
         to=to_phone,
         from_=from_phone
     )
