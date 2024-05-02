@@ -1,0 +1,98 @@
+
+1/1: 0... Success ✅ (inf frames of shape 1280x720 at 30.00 FPS)
+
+
+WARNING ⚠️ inference results will accumulate in RAM unless `stream=True` is passed, causing potential out-of-memory
+errors for large sources or long-running streams and videos. See https://docs.ultralytics.com/modes/predict/ for help.
+
+Example:
+    results = model(source=..., stream=True)  # generator of Results objects
+    for r in results:
+        boxes = r.boxes  # Boxes object for bbox outputs
+        masks = r.masks  # Masks object for segment masks outputs
+        probs = r.probs  # Class probabilities for classification outputs
+
+0: 384x640 (no detections), 107.8ms
+0: 384x640 1 monkey, 153.4ms
+0: 384x640 1 monkey, 248.6ms
+0: 384x640 1 monkey, 203.4ms
+0: 384x640 1 monkey, 122.9ms
+0: 384x640 1 monkey, 120.4ms
+0: 384x640 1 monkey, 108.3ms
+0: 384x640 1 monkey, 176.7ms
+0: 384x640 1 monkey, 186.9ms
+0: 384x640 1 monkey, 104.5ms
+0: 384x640 (no detections), 100.1ms
+0: 384x640 1 monkey, 98.0ms
+0: 384x640 1 monkey, 119.7ms
+0: 384x640 1 monkey, 146.4ms
+0: 384x640 1 monkey, 90.6ms
+0: 384x640 1 monkey, 164.5ms
+0: 384x640 1 monkey, 104.8ms
+0: 384x640 1 monkey, 97.2ms
+0: 384x640 1 monkey, 91.2ms
+0: 384x640 1 monkey, 101.0ms
+0: 384x640 1 monkey, 90.1ms
+0: 384x640 1 monkey, 90.3ms
+0: 384x640 1 monkey, 94.9ms
+0: 384x640 1 monkey, 114.1ms
+0: 384x640 2 monkeys, 97.9ms
+0: 384x640 1 monkey, 102.8ms
+0: 384x640 2 monkeys, 96.9ms
+0: 384x640 1 monkey, 94.5ms
+0: 384x640 1 monkey, 93.9ms
+0: 384x640 2 monkeys, 93.9ms
+0: 384x640 2 monkeys, 99.7ms
+0: 384x640 1 monkey, 136.6ms
+0: 384x640 1 monkey, 97.5ms
+0: 384x640 1 monkey, 90.0ms
+0: 384x640 2 monkeys, 90.5ms
+0: 384x640 1 monkey, 89.5ms
+0: 384x640 1 monkey, 98.4ms
+0: 384x640 2 monkeys, 83.1ms
+0: 384x640 1 monkey, 81.8ms
+0: 384x640 1 monkey, 99.9ms
+0: 384x640 2 monkeys, 99.0ms
+0: 384x640 1 monkey, 160.2ms
+0: 384x640 (no detections), 97.2ms
+0: 384x640 (no detections), 101.7ms
+0: 384x640 1 monkey, 112.0ms
+0: 384x640 1 monkey, 104.7ms
+0: 384x640 1 monkey, 103.3ms
+0: 384x640 1 monkey, 104.7ms
+0: 384x640 1 monkey, 151.6ms
+0: 384x640 1 monkey, 96.5ms
+0: 384x640 2 monkeys, 99.2ms
+0: 384x640 2 monkeys, 82.4ms
+0: 384x640 (no detections), 115.3ms
+0: 384x640 (no detections), 134.4ms
+0: 384x640 (no detections), 190.8ms
+0: 384x640 2 monkeys, 111.3ms
+0: 384x640 1 monkey, 115.1ms
+0: 384x640 2 monkeys, 96.0ms
+0: 384x640 1 monkey, 95.3ms
+0: 384x640 1 monkey, 99.4ms
+0: 384x640 1 monkey, 110.8ms
+0: 384x640 1 monkey, 96.0ms
+0: 384x640 1 monkey, 106.3ms
+0: 384x640 1 monkey, 362.6ms
+0: 384x640 1 monkey, 298.4ms
+0: 384x640 (no detections), 245.7ms
+0: 384x640 1 monkey, 150.5ms
+0: 384x640 1 monkey, 180.9ms
+0: 384x640 1 monkey, 123.4ms
+0: 384x640 1 monkey, 114.6ms
+0: 384x640 1 monkey, 103.4ms
+0: 384x640 1 monkey, 114.4ms
+0: 384x640 1 monkey, 130.2ms
+0: 384x640 1 monkey, 86.7ms
+0: 384x640 1 monkey, 162.8ms
+0: 384x640 (no detections), 88.6ms
+0: 384x640 (no detections), 147.1ms
+0: 384x640 (no detections), 147.0ms
+0: 384x640 1 monkey, 105.4ms
+0: 384x640 1 monkey, 301.3ms
+0: 384x640 1 monkey, 159.9ms
+0: 384x640 (no detections), 176.9ms
+0: 384x640 1 monkey, 110.5ms
+0: 384x640 1 monkey, 204.8ms

@@ -1,9 +1,6 @@
 from twilio.rest import Client
 import os
 from dotenv import load_dotenv
-import os
-import cv2
-from ultralytics import YOLO
 
 load_dotenv()
 
@@ -24,15 +21,5 @@ def sendSmsNotification():
     print("text message send with id:",message.sid)
 
 
-
-# Load YOLO model
-model_path = os.path.join('.', 'runs', 'detect', 'train5', 'weights', 'best.pt')
-model = YOLO(model_path)
-
-result = model.predict(source="0", show=True)
-
-def main():
-    print("this is from main")
-
 if __name__ == '__main__':
-    main()
+    print("send text message code")
